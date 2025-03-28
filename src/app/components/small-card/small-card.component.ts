@@ -4,7 +4,8 @@ import { RouterLink } from '@angular/router';
   selector: 'app-small-card',
   templateUrl: './small-card.component.html',
   styleUrls: ['./small-card.component.css'],
-  imports: [RouterLink]
+  imports: [RouterLink],
+  standalone: true
 })
 export class SmallCardComponent {
   @Input() id!: string;

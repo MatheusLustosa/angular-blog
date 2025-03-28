@@ -5,7 +5,9 @@ import { RouterLink } from '@angular/router';
   selector: 'app-big-card',
   templateUrl: './big-card.component.html',
   styleUrls: ['./big-card.component.css'],
-  imports: [RouterLink]
+  imports: [RouterLink],
+  standalone: true
+
 })
 export class BigCardComponent {
   @Input() Id?: string;
